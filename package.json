@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint:check": "next lint",
+    "lint:fix": "next lint --fix",
     "format:check": "prettier --check src",
     "format:fix": "prettier --write src",
     "storybook": "storybook dev -p 6006",
@@ -14,8 +15,8 @@
     "cypress": "cypress open",
     "e2e": "start-server-and-test dev http://localhost:3000 \"cypress open --e2e\"",
     "e2e:ci": "start-server-and-test dev http://localhost:3000 \"cypress run --e2e\"",
-    "test:ci": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:ci": "jest"
   },
   "dependencies": {
     "next": "13.4.3",
