@@ -1,15 +1,18 @@
 import { Container } from './Container';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 
 describe('Container', () => {
   it('should render container', () => {
-    const { baseElement } = render(<Container>Text</Container>);
-    expect(baseElement).toBeTruthy();
+    const children = 'Text';
+    render(<Container>{children}</Container>);
+    const container = screen.getByText(children);
+    expect(container).toBeTruthy();
   });
 
   it('should render children', () => {
     const children = 'Text';
-    const { baseElement } = render(<Container>{children}</Container>);
-    expect(baseElement).toHaveTextContent(children);
+    render(<Container>{children}</Container>);
+    const container = screen.getByText(children);
+    expect(container).toHaveTextContent(children);
   });
 });
