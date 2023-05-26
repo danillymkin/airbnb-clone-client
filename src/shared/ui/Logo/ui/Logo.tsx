@@ -11,7 +11,7 @@ export const Logo: FunctionComponent<Props> = ({}): JSX.Element => {
   return (
     <Image
       alt={'Logo'}
-      className={'hidden cursor-pointer md:block'}
+      className={'block cursor-pointer'}
       height={31}
       width={100}
       src={'/images/logo.png'}
