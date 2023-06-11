@@ -4,6 +4,9 @@ import { Menu, MenuItem } from '@/shared/ui/Menu';
 const meta: Meta = {
   title: 'UI/Menu',
   component: Menu,
+  parameters: {
+    layout: 'centered',
+  },
 };
 
 export default meta;
@@ -12,12 +15,10 @@ type Story = StoryObj<typeof Menu>;
 
 export const Default: Story = {
   render: () => (
-    <div className={'flex justify-end'}>
-      <Menu trigger={'Menu'}>
-        <MenuItem>Item 1</MenuItem>
+    <Menu trigger={'Menu'}>
+      <MenuItem>Item 1</MenuItem>
 
-        <MenuItem>Item 2</MenuItem>
-      </Menu>
-    </div>
+      <MenuItem>Item 2</MenuItem>
+    </Menu>
   ),
 };
