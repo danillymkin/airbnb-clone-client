@@ -1,5 +1,5 @@
-import { Container } from './Container';
 import { render, screen } from '@testing-library/react';
+import { Container } from '@/shared/ui/Container';
 
 describe('Container', () => {
   it('should render container', () => {
