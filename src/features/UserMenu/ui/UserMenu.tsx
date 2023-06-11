@@ -3,11 +3,7 @@ import { AiOutlineMenu } from 'react-icons/ai';
 import { Menu, MenuItem } from '@/shared/ui/Menu';
 import { Avatar } from '@/shared/ui/Avatar';
 
-interface UserMenuProps {}
-
-type Props = UserMenuProps;
-
-export const UserMenu: FunctionComponent<Props> = ({}): JSX.Element => {
+export const UserMenu: FunctionComponent = (): JSX.Element => {
   return (
     <div className={'relative'} data-testid={'user-menu'}>
       <div className={'flex items-center gap-3'}>
