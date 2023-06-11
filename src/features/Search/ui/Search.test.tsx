@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import { Search } from './Search';
+import { Search } from '@/features/Search';
 
 describe('Search', () => {
   it('should render search', () => {
