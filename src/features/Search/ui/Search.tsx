@@ -1,11 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { BiSearch } from 'react-icons/bi';
 
-interface SearchProps {}
-
-type Props = SearchProps;
-
-export const Search: FunctionComponent<Props> = ({}): JSX.Element => {
+export const Search: FunctionComponent = (): JSX.Element => {
   return (
     <div
       className={
