@@ -1,5 +1,5 @@
-import { Logo } from './Logo';
 import { render, screen } from '@testing-library/react';
+import { Logo } from '@/shared/ui/Logo';
 
 describe('Logo', () => {
   it('should render logo', () => {
