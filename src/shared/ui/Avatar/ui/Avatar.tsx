@@ -1,11 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import Image from 'next/image';
 
-interface AvatarProps {}
-
-type Props = AvatarProps;
-
-export const Avatar: FunctionComponent<Props> = ({}): JSX.Element => {
+export const Avatar: FunctionComponent = (): JSX.Element => {
   return (
     <Image
       className={'rounded-full'}
