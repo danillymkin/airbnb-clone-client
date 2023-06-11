@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu should match snapshot 1`] = `
+<div
+  class="relative"
+  data-headlessui-state=""
+  data-testid="menu"
+>
+  <button
+    aria-expanded="false"
+    aria-haspopup="menu"
+    data-headlessui-state=""
+    id="headlessui-menu-button-:r2:"
+    type="button"
+  >
+    trigger
+  </button>
+</div>
+`;

@@ -12,6 +12,16 @@ describe('Menu', () => {
     expect(menu).toBeInTheDocument();
   });
 
+  it('should match snapshot', () => {
+    render(
+      <Menu trigger={'trigger'}>
+        <MenuItem>item</MenuItem>
+      </Menu>
+    );
+    const menu = screen.getByTestId('menu');
+    expect(menu).toMatchSnapshot();
+  });
+
   it('should render menu trigger', () => {
     const trigger = 'trigger';
     render(
