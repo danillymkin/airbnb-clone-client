@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+<header
+  class="fixed z-10 w-full bg-white shadow-sm"
+  data-testid="header"
+>
+  <div
+    class="border-b py-4"
+  >
+    <div
+      class="mx-auto max-w-[2520px] px-4 sm:px-2 md:px-10 xl:px-20"
+    >
+      <div
+        class="flex items-center justify-between gap-3 md:gap-0"
+      >
+        <div
+          class="hidden md:block"
+        >
+          <img
+            alt="Logo"
+            class="block cursor-pointer"
+            data-nimg="1"
+            decoding="async"
+            fetchpriority="high"
+            height="31"
+            src="/_next/image?url=%2Fimages%2Flogo.png&w=256&q=75"
+            srcset="/_next/image?url=%2Fimages%2Flogo.png&w=128&q=75 1x, /_next/image?url=%2Fimages%2Flogo.png&w=256&q=75 2x"
+            style="color: transparent;"
+            width="100"
+          />
+        </div>
+        <div
+          class="w-full cursor-pointer rounded-full border py-2 shadow-sm transition hover:shadow-md md:w-auto"
+          role="search"
+        >
+          <div
+            class="flex items-center justify-between"
+          >
+            <div
+              class="px-6 text-sm font-semibold"
+            >
+              Anywhere
+            </div>
+            <div
+              class="hidden flex-1 border-x px-6 text-center text-sm font-semibold sm:block"
+            >
+              Any Week
+            </div>
+            <div
+              class="flex items-center gap-3 pl-6 pr-2 text-sm text-gray-600"
+            >
+              <div
+                class="hidden sm:block"
+              >
+                Add Guests
+              </div>
+              <div
+                class="rounded-full bg-rose-500 p-2 text-white"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  role="img"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 18a7.952 7.952 0 0 0 4.897-1.688l4.396 4.396 1.414-1.414-4.396-4.396A7.952 7.952 0 0 0 18 10c0-4.411-3.589-8-8-8s-8 3.589-8 8 3.589 8 8 8zm0-14c3.309 0 6 2.691 6 6s-2.691 6-6 6-6-2.691-6-6 2.691-6 6-6z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="relative"
+          data-testid="user-menu"
+        >
+          <div
+            class="flex items-center gap-3"
+          >
+            <div
+              class="hidden cursor-pointer rounded-full px-4 py-3 text-sm font-semibold transition hover:bg-neutral-100 md:block"
+            >
+              Airbnb your home
+            </div>
+            <div
+              class="relative"
+              data-headlessui-state=""
+              data-testid="menu"
+            >
+              <button
+                aria-expanded="false"
+                aria-haspopup="menu"
+                data-headlessui-state=""
+                id="headlessui-menu-button-:r2:"
+                type="button"
+              >
+                <div
+                  class="flex cursor-pointer items-center gap-3 rounded-full border border-neutral-200 p-4 transition hover:shadow-md md:px-2 md:py-1"
+                >
+                  <svg
+                    fill="currentColor"
+                    height="1em"
+                    stroke="currentColor"
+                    stroke-width="0"
+                    viewBox="0 0 1024 1024"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"
+                    />
+                  </svg>
+                  <div
+                    class="hidden md:block"
+                  >
+                    <img
+                      alt="Avatar"
+                      class="rounded-full"
+                      data-nimg="1"
+                      decoding="async"
+                      height="30"
+                      loading="lazy"
+                      src="/_next/image?url=%2Fimages%2Favatar-fallback.jpg&w=64&q=75"
+                      srcset="/_next/image?url=%2Fimages%2Favatar-fallback.jpg&w=32&q=75 1x, /_next/image?url=%2Fimages%2Favatar-fallback.jpg&w=64&q=75 2x"
+                      style="color: transparent;"
+                      width="30"
+                    />
+                  </div>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+`;
