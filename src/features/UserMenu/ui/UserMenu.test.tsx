@@ -8,6 +8,12 @@ describe('User Menu', () => {
     expect(userMenu).toBeInTheDocument();
   });
 
+  it('should match snapshot', () => {
+    render(<UserMenu />);
+    const userMenu = screen.getByTestId('user-menu');
+    expect(userMenu).toMatchSnapshot();
+  });
+
   it('should render your home button', () => {
     render(<UserMenu />);
     const yourHomeBtn = screen.getByText(/airbnb your home/i);
