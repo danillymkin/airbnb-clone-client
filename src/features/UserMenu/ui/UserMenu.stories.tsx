@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { UserMenu } from './UserMenu';
+import { UserMenu } from '@/features/UserMenu';
 
 const meta: Meta = {
   title: 'Features/UserMenu',
