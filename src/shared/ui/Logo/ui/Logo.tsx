@@ -3,11 +3,7 @@
 import React, { FunctionComponent } from 'react';
 import Image from 'next/image';
 
-interface LogoProps {}
-
-type Props = LogoProps;
-
-export const Logo: FunctionComponent<Props> = ({}): JSX.Element => {
+export const Logo: FunctionComponent = (): JSX.Element => {
   return (
     <Image
       alt={'Logo'}
