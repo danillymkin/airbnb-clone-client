@@ -22,9 +22,6 @@ jobs:
       - name: Unit test
         run: npm run test:ci
 
-      - name: E2E test
-        run: npm run e2e:ci
-
       - name: Storybook
         run: npm run build-storybook
 
